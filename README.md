@@ -21,10 +21,6 @@ vignette: >
   %\VignetteEngine{knitr::knitr}
 ---
 
-# Copy rights
-
-This program was developed by Diogo Sayanda and is property of Alberta Government, Canada. Any use, appropriation or distribution of part or totality of this program, manual or any of its components must be formally authorized by the Alberta Government, Canada.
-
 # Description
 
 This package has been designed primarily to be used with biomonitoring epilithic organisms, Chlorophyll and Ash Free Dry Mass data from aquatic systems but can also be used to analyze any epibenthic or endobenthic organisms? data.
@@ -53,7 +49,6 @@ The program contains four user assessable functions that perform the following t
 #.	Data quality evaluation and descriptive analysis of a $Chla$, $AFDM$, $Index$, or $SD$ single data sample;
 
 #.	Estimate the overall concentration of Chlorophyll, AFDM,  Index, or the density of epilithic individuals, per sampling site and per type of habitat within the designated site (stone size class);
-
 
 #.	The usual descriptive analysis that precedes the adjustment of a multiple regression model: $2\times 2$ correlational patterns between the response and each environmental covariates and among pairs of covariates, multi-collinearity detection and, when applicable, estimation of the best shape parameter for the response;
 
@@ -87,8 +82,8 @@ The data files to be used in the analysis will depend on the study objectives an
 
 It is relevant to underline that all statistical methods rely on assumptions that should be taken into consideration to increase data quality and get realistic results from the analysis. Biological systems are highly dynamic and variable and it is imperative to collect a significant amount of data to get representative samples to detect meaningful patterns of variation related with environmental stressors, considering the existence of annual cycles.
 
-When modeling data that includes different sites, although the respective functions were designed to control some of the inter-site variation, it is assumed that the sampled areas are similar and that the variability associated with unmeasured environmental traits are insipient. For this reason it is high recommended that the number of distinct sites is kept to the minimum possible and that the sampling design also focusses in defining the adequate sampling effort per site and that the exact sampled areas within each site are similar. With purpose in mind, the use of artificial substrate should be pondered.
+When modeling data that includes different sites, although the respective functions were designed to control some of the inter-site variation, it is assumed that the sampled areas are similar and that the variability associated with unmeasured environmental traits are incipient. For this reason it is high recommended that the number of distinct sites is kept within areas that can be considered relatively homegeneous for the response variable, i. e. if the natural environmental conditions are similar, one can expect to get equivalent samples in distinct sites. It is also important that the sampling design also considers a pilot study to define adequate sampling effort per site and that the exact sampling areas within each site are similar (relatively similar habitats) to reduce uncontrolled variability. The use of artificial substrate, or $in situ$ mesocosms should be also be considered in order to control the variability of the response.
 
-For the above, monitoring programs must rely on the definition adequate sampling designs and validated and optimized sampling methods and equipment, include realistic time frames to distinguish random variability of the responses from their trends over time and control unmeasured sources of variability as much as possible.
+For the above, monitoring programs must rely on the definition adequate sampling designs, validated and optimized sampling methods and standard equipment, include realistic time frames to distinguish random variability from temporal trends and control unmeasured sources of variability as much as possible.
 
 For a sensible sampling design and planning, it is also important that the first year of any environmental study is a pilot study that aims to determine the number of sampling sites, define the exact data collection areas within each site, determine the minimum period between subsequent campaigns, establish the number of replicates within each site and have a first glimpse of the collected information.
