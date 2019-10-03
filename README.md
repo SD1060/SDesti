@@ -21,10 +21,6 @@ vignette: >
   %\VignetteEngine{knitr::knitr}
 ---
 
-# Copy rights
-
-This program was developed by Diogo Sayanda and is property of Alberta Government, Canada. Any use, appropriation or distribution of part or totality of this program, manual or any of its components must be formally authorized by the Alberta Government, Canada.
-
 # Description
 
 This package has been designed primarily to be used with biomonitoring epilithic organisms, Chlorophyll and Ash Free Dry Mass data from aquatic systems but can also be used to analyze any epibenthic or endobenthic organisms? data.
@@ -53,7 +49,6 @@ The program contains four user assessable functions that perform the following t
 #.	Data quality evaluation and descriptive analysis of a $Chla$, $AFDM$, $Index$, or $SD$ single data sample;
 
 #.	Estimate the overall concentration of Chlorophyll, AFDM,  Index, or the density of epilithic individuals, per sampling site and per type of habitat within the designated site (stone size class);
-
 
 #.	The usual descriptive analysis that precedes the adjustment of a multiple regression model: $2\times 2$ correlational patterns between the response and each environmental covariates and among pairs of covariates, multi-collinearity detection and, when applicable, estimation of the best shape parameter for the response;
 
