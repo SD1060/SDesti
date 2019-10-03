@@ -1,0 +1,18 @@
+Package: SDesti
+Type: Package
+Title: An R package for the analysis of macroinvertebrate and periphyton environmental studies’ data
+Version: 0.1.0
+Date:2019-06-28
+Author: Diogo Sayanda
+Maintainer: Diogo Sayanda <dsayanda@yahoo.com>
+Description: An adequate and complete statistical analysis for Stone dwelling organisms and Periphyton biomonitoring data. It receives data on macroinvertebrates (counts or biological index), or Periphyton (counts, chlorophyll concentration, ash free dry mass (AFDM), or biological index), environmental variables and site habitat composition data collected over a period of time and has four user accessible functions that return: 1) the descriptive analysis of each sample and a surficial evaluation of the quality of the data recurring to the power function; 2) estimates of number of individuals/chlorophyll concentration/AFDM/index per area of benthic habitat at one given site; 3) the typical descriptive analysis that precedes the adjustment of a regression model, including detection of multi-collinearity and determining the transformation that maximizes the linear relation between the response and the covariates in analysis; 4) the adjustment of a regression model (linear, Poisson, quasipoisson, or negative binomial) according to the characteristics of the data, selection of the best model recurring to automated backward and forward routines, estimation of measures of goodness-of-fit, identification of the outliers, influent observations, and delivery of the graphics necessary to analyze the residuals. The program delivers information that allows the user to make a general evaluation of the quality of each sample, evaluate the quality of the analysis and interpret the data. The program includes a complete manual.
+License: BSD3 + file LICENSE
+Copyright: Diogo Sayanda and Alberta Environment and Parks
+Encoding: UTF-8
+LazyData: true
+Imports: grDevices, broom, car, caret, faraway, graphics, MASS, stats
+RoxygenNote: 6.1.1
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
