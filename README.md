@@ -1,26 +1,3 @@
----
-title: "SDesti"
-author: "Diogo Sayanda"
-date: "June, 2019"
-output:
-  pdf_document:
-    toc: yes
-    toc_depth: '6'
-  word_document:
-    toc: yes
-    toc_depth: '6'
-  html_document:
-    highlight: pygments
-    keep_md: yes
-    theme: united
-    toc: yes
-    toc_depth: 6
-vignette: >
-  %\VignetteIndexEntry{"SDesti"} 
-  %\VignetteEncoding{UTF-8}
-  %\VignetteEngine{knitr::knitr}
----
-
 # Description
 
 This package has been designed primarily to be used with biomonitoring epilithic organisms, Chlorophyll and Ash Free Dry Mass data from aquatic systems but can also be used to analyze any epibenthic or endobenthic organisms? data.
